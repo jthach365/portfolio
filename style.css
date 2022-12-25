@@ -30,7 +30,7 @@
 
 /* Home page section style */
 #home {
-  height: 500px; /* Increase the height of the home section */
+  height: 800px; /* Increase the height of the home section */
   padding-top: 50px; /* Add top padding to push the section down below the navigation bar */
   display: flex;
   align-items: center;

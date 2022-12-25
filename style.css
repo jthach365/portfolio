@@ -37,6 +37,21 @@
   justify-content: center;
 }
 
+#about {
+  height: 800px; /* Increase the height of the home section */
+  padding-top: 50px; /* Add top padding to push the section down below the navigation bar */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#works {
+  height: 800px; /* Increase the height of the home section */
+  padding-top: 50px; /* Add top padding to push the section down below the navigation bar */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 /* Active link */
 .navbar a.active {

@@ -99,4 +99,6 @@ footer img {
 section {
   border-top: 1px solid #ccc; /* Add a 1px solid gray top border */
   border-bottom: 1px solid #ccc; /* Add a 1px solid gray bottom border */
+  border-left: 1px solid #ccc; /* Add a 1px solid gray left border */
+  border-right: 1px solid #ccc; /* Add a 1px solid gray right border */
 }

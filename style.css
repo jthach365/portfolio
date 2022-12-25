@@ -3,10 +3,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
+  background-color: black; /* Make the navigation bar black */
   color: white;
+  font-family: "Helvetica", sans-serif; /* Use Helvetica */
   padding: 20px;
   height: 50px; /* Make the navigation bar taller */
+  position: fixed; /* Make the navigation bar fixed */
+  top: 0; /* Set the top position to 0 */
+  left: 0; /* Set the left position to 0 */
+  right: 0; /* Set the right position to 0 */
+  z-index: 10; /* Set the z-index to 10 to make sure it is above other elements */
 }
 
 /* Navigation bar links */
@@ -26,6 +32,11 @@
 .navbar .name {
   margin-left: 20px;
   font-size: 20px;
+}
+
+/* Highlight links on hover */
+.navbar a:hover {
+  background-color: #4caf50; /* Change the background color on hover */
 }
 
 /* Page content style */

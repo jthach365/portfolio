@@ -45,10 +45,6 @@
   justify-content: center;
 }
 
-#works {
-  padding-top: 50px; /* Add top padding to push the section down below the navigation bar */
-}
-
 /* About Me page section style */
 #about {
   height: 800px; /* Increase the height of the about me section */
@@ -56,9 +52,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-#about{
-  padding-top: 50px; /* Add top padding to push the section down below the navigation bar */
 }
 
 /* Active link */

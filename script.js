@@ -1,36 +1,16 @@
-window.onload = function() {
-    // Get all the nav links
-    var navLinks = document.querySelectorAll("nav a");
-  
-    // Loop through the nav links and add a click event listener to each
-    navLinks.forEach(function(link) {
-      link.addEventListener("click", function(event) {
-        event.preventDefault();
-        var target = event.target;
-        var href = target.getAttribute("href");
-  
-        // Load the target page into the main content area
-        loadPage(href);
-      });
-    });
-  
-    // Hide the loading screen
-    document.getElementById("loading").style.display = "none";
-  
-    // Show the main content
-    document.getElementById("content").style.display = "block";
-  };
-  
-  function loadPage(url) {
-    // Use fetch to make a GET request to the specified URL
-    fetch(url)
-      .then(function(response) {
-        // When the response is received, return it as text
-        return response.text();
-      })
-      .then(function(html) {
-        // When the HTML is received, update the main content area with the new content
-        document.querySelector("main").innerHTML = html;
-      });
-  }
-  
+// Get all the links in the navigation bar
+var navbarLinks = document.querySelectorAll(".navbar a");
+
+// Loop through all the links
+for (var i = 0; i < navbarLinks.length; i++) {
+  // Add a click event listener to each link
+  navbarLinks[i].addEventListener("click", function() {
+    // Remove the active class from all the links
+    for (var i = 0; i < navbarLinks.length; i++) {
+      navbarLinks[i].classList.remove("active");
+    }
+
+    // Add the active class to the clicked link
+    this.classList.add("active");
+  });
+}

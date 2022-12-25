@@ -74,3 +74,23 @@
   margin: 20px;
   text-align: center;
 }
+
+/* Footer style */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Footer links */
+footer a {
+  display: block;
+}
+
+/* Footer images */
+footer img {
+  width: 40px; /* Set the width of the images */
+  height: 40px; /* Set the height of the images */
+  margin-right: 20px; /* Add some space between the images */
+}

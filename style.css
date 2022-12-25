@@ -31,7 +31,7 @@
 /* Home page section style */
 #home {
   height: 800px; /* Increase the height of the home section */
-  padding-top: 50px; /* Add top padding to push the section down below the navigation bar */
+  padding-top: 100px; /* Add top padding to push the section down below the navigation bar */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -40,6 +40,7 @@
 /* Personal Works page section style */
 #works {
   height: 800px; /* Increase the height of the personal works section */
+  padding-top: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -48,6 +49,7 @@
 /* About Me page section style */
 #about {
   height: 800px; /* Increase the height of the about me section */
+  padding-top: 100px;
   display: flex;
   align-items: center;
   justify-content: center;

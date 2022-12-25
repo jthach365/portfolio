@@ -37,17 +37,17 @@
   justify-content: center;
 }
 
-#about {
-  height: 800px; /* Increase the height of the home section */
-  padding-top: 50px; /* Add top padding to push the section down below the navigation bar */
+/* Personal Works page section style */
+#works {
+  height: 800px; /* Increase the height of the personal works section */
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* Personal Works page section style */
-#works {
-  height: 800px; /* Increase the height of the personal works section */
+/* About Me page section style */
+#about {
+  height: 800px; /* Increase the height of the about me section */
   display: flex;
   align-items: center;
   justify-content: center;

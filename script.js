@@ -20,3 +20,11 @@ for (var i = 0; i < navbarLinks.length; i++) {
     });
   });
 }
+
+function scrollToAbout() {
+    // Get the about section element
+    const aboutSection = document.querySelector('#about');
+    
+    // Scroll to the about section
+    aboutSection.scrollIntoView({ behavior: 'smooth' });
+  }

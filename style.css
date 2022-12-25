@@ -1,61 +1,42 @@
 body {
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
-  background-color: #ac2b2b;
 }
 
-.nav {
+header {
+  background-color: #333;
+  color: #fff;
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  height: 64px;
-  padding: 0 32px;
-  background-color: #ffffff;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
+  padding: 0 20px;
 }
 
-.nav a {
-  font-size: 18px;
-  font-weight: 500;
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header nav ul li {
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  color: #fff;
   text-decoration: none;
-  color: #333333;
 }
 
-.nav a:hover {
-  color: #0077ff;
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
 }
 
-.nav .logo {
-  font-size: 24px;
-  font-weight: 700;
-}
-
-.nav .menu {
-  display: none;
-}
-
-.nav .menu-icon {
-  cursor: pointer;
-  font-size: 24px;
-}
-
-@media (max-width: 768px) {
-  .nav .menu {
-    display: flex;
-  }
-  .nav .menu-icon {
-    display: block;
-  }
-  .nav .logo {
-    display: none;
-  }
-  .nav .menu-items {
-    display: none;
-  }
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
 }

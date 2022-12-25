@@ -23,6 +23,11 @@
   margin-right: 20px;
 }
 
+/* Home page section style */
+#home {
+  padding-top: 50px; /* Add top padding to push the section down below the navigation bar */
+}
+
 /* Active link */
 .navbar a.active {
   color: #4caf50;

@@ -24,9 +24,9 @@
 }
 
 /* Home page section style */
-/* #home {
+#home {
   padding-top: 50px; /* Add top padding to push the section down below the navigation bar */
-/* } */ */
+}
 
 /* Home page section style */
 #home {
@@ -40,10 +40,13 @@
 /* Personal Works page section style */
 #works {
   height: 800px; /* Increase the height of the personal works section */
-  padding-top: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#works {
+  padding-top: 50px; /* Add top padding to push the section down below the navigation bar */
 }
 
 /* About Me page section style */
@@ -53,6 +56,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+#about{
+  padding-top: 50px; /* Add top padding to push the section down below the navigation bar */
 }
 
 /* Active link */
